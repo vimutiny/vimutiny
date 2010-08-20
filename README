@@ -1,0 +1,45 @@
+Vim Mutiny
+==========
+
+Goal: Total re-write of the Vim core to make it operable, extensible, pluggable, and lovable.
+
+Newvim is a cleanroom implementation of an input core + editor buffers + screen
+display + newscript... and then uses newscript to implement all of newvim's
+functionallity... every keypress, every function, every mapping, every
+option...
+
+NOTE: The name newvim here is merely a placeholder. We will need a real name.
+Tentative suggestions include:
+
+* vj - vi++
+* seven / se7en / vii (unavailable - name of a Wii clone)
+* vise - Vi like Scripted Editor   -   is it /s/ or /z/?
+* yavi - Yet another Vim Immitator
+* vix - because vii is unavailable
+
+Implement the core in C99 and expose a rich API and HLL interface.
+
+I have long wished for Vim power in other applications. The new Vim core will
+be designed in such a way that it could be used in other applications to create
+vim-modal-like functionality in mail clients, shells, pdf viewers, window
+managers, web browsers, graphics editors, etc... The time for Vim to take over
+the application sphere has ARRIVED. :D
+
+New Features
+------------
+
+* Full support for vimscript.
+* A new scripting language to be what vimscript isn't - all new scripts should
+  be written in this.
+* Lexer / Parser interface accessible from the built-in scripting language so
+  that plugins and syntax files can actually parse the code.
+* Asynchronous process control - e.g., communicating with gdb
+* Options iterator - to get the current set of option names and values in
+  newscript.
+* normal-mode key-press logging (not macros) - goal here is to be able to watch
+  and advise on suboptimal habits
+* Real (actual) shell integration
+* Multiple filetype settings for different sections within one file (e.g. perl + POD)
+* ? Motion undo
+* ? Clickable LHS fold markers and fold delineators in the GUI (terminal?)
+
