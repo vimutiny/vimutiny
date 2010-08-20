@@ -42,4 +42,3 @@ New Features
 * Multiple filetype settings for different sections within one file (e.g. perl + POD)
 * ? Motion undo
 * ? Clickable LHS fold markers and fold delineators in the GUI (terminal?)
-
