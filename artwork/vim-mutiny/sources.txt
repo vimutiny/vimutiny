@@ -1,0 +1,14 @@
+Concept Art
+===========
+
+Both the source images were found through Google Images:
+(I know they're not the canonical sources, but I couldn't be bothered
+tracking them to their origin...) I am hoping that the Vim logo is
+free to use... (hehe... perhaps they wouldn't *like* this use,
+though... :) )
+
+walk-plank.jpg taken from http://www.cartoonstock.com/cartoonview.asp?search=site&catref=jdin383&MA_Category=&ANDkeyword=recidivism&ORkeyword=&TITLEkeyword=&NEGATIVEkeyword=
+
+vim-editor_logo-300x300.png taken from http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/
+
+The pirates were created from this great inkscape tutorial: http://www.trazoi.net/tutorials/inkscape/oots/introduction.html
